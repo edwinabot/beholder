@@ -1,38 +1,34 @@
-# compiled output
-/dist
+# Created by https://www.toptal.com/developers/gitignore/api/deno,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=deno,visualstudiocode
+
+### Deno ###
+/.idea/
+/.vscode/
+
 /node_modules
 
-# Logs
-logs
-*.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
+.env
+*.orig
+*.pyc
+*.swp
 
-# OS
-.DS_Store
-
-# Tests
-/coverage
-/.nyc_output
-
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# IDE - VSCode
+### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+!.vscode/*.code-snippets
 
-# Docker stuff
-data/
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/deno,visualstudiocode
