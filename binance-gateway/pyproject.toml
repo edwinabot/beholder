@@ -7,6 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+python-binance = "^1.0.19"
 
 
 [build-system]
